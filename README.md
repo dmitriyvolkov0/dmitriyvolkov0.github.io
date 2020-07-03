@@ -7,4 +7,5 @@
 
 
 ## Связаться со мной можно:
-![ВКОНТАКТЕ](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "ВКОНТАКТЕ")[Вконтакте](http://interval-web-studio.ru/)
+#### ВКОНТАКТЕ [https://vk.com/dimooooon_v](https://vk.com/dimooooon_v) </br>
+#### По почте [dmitriyvolkov002@gmail.com]() </br>
