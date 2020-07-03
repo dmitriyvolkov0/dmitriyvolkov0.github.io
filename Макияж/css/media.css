@@ -1,0 +1,255 @@
+@media screen and (min-width: 1440px){
+	.menu-img{
+		margin-left: 120px;
+	}
+}
+
+@media screen and (max-width: 1440px){
+	.elipse-7{
+	  margin-top: 20px;
+	  left: 3%;
+}
+
+@media screen and (max-width: 1245px){
+	.main-screen form input{
+	  width: 180px;
+	}
+}
+
+@media screen and (max-width: 1199px){
+	.main-screen form input {
+		margin-right: 5px;
+		width: 150px;
+	}
+
+	.application form input {
+	    width: 180px;
+	    margin-right: 10px;
+	}
+
+	.copyright{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1185px){
+	.reviews-block img {
+	    width: 230px;
+	    height: 230px;
+	}
+
+	.reviews-block{
+		width: 300px;
+	}
+
+	.reviews-description, .page-in-vk{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1017px){
+	.nav-section a {
+	    padding-left: 20px;
+}
+
+@media screen and (max-width: 991px){
+	.menu-img{
+		margin-left: -30px;
+	}
+
+	.master img{
+	  display: block;
+	  width: 320px;
+	  height: 320px;
+	  margin-top: 130px
+	}
+
+	.certificate-block p{
+	  height: 210px;
+	}
+
+	.prev-ar{
+	  left: -1%;
+	}
+
+	.next-ar{
+	  left: 95%;
+	}
+
+	.reviews-block img {
+	    width: 180px;
+	    height: 180px;
+	}
+
+	.reviews-block{
+		width: 240px;
+	}
+
+	.reviews-description, .page-in-vk{
+		font-size: 14px;
+	}
+
+	.page-in-vk{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 870px){
+	.menu-img{
+		width: 250px;
+		height: 120px;
+	}
+
+	.elipse-10{
+	  left: 80%;
+	}
+}
+
+@media screen and (max-width: 785px){/*arrows settings (for slider)*/
+		.prev-ar{
+		  width: 45px;
+		  height: 70px;
+		  left: 10%;
+		}
+
+		.next-ar{
+		  width: 45px;
+		  height: 70px;
+		  left: 82%;
+		}
+
+		.arrow{
+		  background: url(../graphics/arrow_phone.svg) no-repeat;
+		  font-size: 0;
+		  line-height: 0;
+		  position: absolute;
+		  top: 40%;
+		  border:none;
+		  background-size: contain;
+		  z-index: 999; 
+		}
+
+		/*dots*/
+
+		.slick-dots li button:before{
+			border: 2px solid #e01798;
+			border-radius:100%;
+			background: none;
+			color: transparent;
+			margin-top: 10px;
+		}
+
+		.slick-dots li.slick-active button:before{
+		  border: 2px solid #e01798;
+		  color: transparent !important;
+		  border-radius:100%;
+		  background: #e01798;
+		  
+		}
+
+		.slick-dots li button:before{
+			color: transparent !important;
+		}
+
+		.prev-ar{
+		  width: 22px !important;
+		  height: 35px !important;
+		  left: 3%;
+		}
+
+		.next-ar{
+		  width: 22px !important;
+		  height: 35px !important;
+		  left: 92%;
+		}
+}
+
+@media screen and (max-width: 767px){
+	.modal-content form input{
+		display: block;
+		margin: 10px auto;
+		width: 80%;
+	}
+
+	.vk-inst-footer{
+		display: block;
+	}
+
+	.application #submit, .main-mobile #submit{
+		margin-top: 13px;
+	}
+}
+
+@media screen and (max-width: 508px){
+	.main-screen form{
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.illustration-section{
+		height: 200px !important;
+	}
+}
+
+@media screen and (max-width: 400px){ /*modals*/
+	.modal-content{
+	  padding-left: 8px;
+	  padding-right: 8px;
+	}
+
+	.modal-title{
+		margin-top: 10px;
+	}
+
+	.modal-content .service, .write-your-n-ph, .modal-content form input{
+	  margin-top: 20px;
+	}
+
+	.modal-content form{
+	  margin-bottom: 20px;
+	}
+
+	.modal-content button#submit{
+		width: 80%;
+		margin-top: 20px;
+
+	}
+}
+
+@media screen and (max-width: 447px){
+	.modal-content form input{
+		font-size: 18px;
+	}
+
+	.modal-body span{
+		line-height: 1;
+		margin-left: 15px;
+	}
+}
+
+@media screen and (max-width: 325px){
+	.master img{
+		width: 250px !important;
+		height: 250px !important;
+	}
+
+	.pm-slider img, .gallery-block img{
+		width: 220px;
+		height: 220px;
+	}
+
+	.price-block{
+		width: 240px;
+	}
+	
+	.price-block img{
+		width: 210px;
+		height: 210px;
+	}
+
+	.enroll-but{
+		width: 80%;
+	}
+}
+
