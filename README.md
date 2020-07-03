@@ -6,7 +6,7 @@
 [4.РГУПС-информирование студентов](https://dmitriyvolkov0.github.io/%D0%9C%D0%B0%D0%BA%D0%B8%D1%8F%D0%B6/) 
 
 
-## Стоимость разработки веб-сайта можно узнать, [перейдя по этой ссылке](http://interval-web-studio.ru/) </br> или написав мне:
+## Стоимость разработки веб-сайта можно узнать, [перейдя по этой ссылке](http://interval-web-studio.ru/) </br> Или написав мне:
 ##### ВКОНТАКТЕ: [https://vk.com/dimooooon_v](https://vk.com/dimooooon_v)
 ##### По почте: dmitriyvolkov002@gmail.com
 ##### Телеграм: dmitriy_volkov1
