@@ -7,4 +7,4 @@
 
 
 ## Связаться со мной можно:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+####Вконтакте![ВКОНТАКТЕ](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "ВКОНТАКТЕ")
