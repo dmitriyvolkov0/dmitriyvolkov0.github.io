@@ -7,5 +7,5 @@
 
 
 ## Связаться со мной можно:
-##### ВКОНТАКТЕ [https://vk.com/dimooooon_v](https://vk.com/dimooooon_v) </br>
+##### ВКОНТАКТЕ [https://vk.com/dimooooon_v](https://vk.com/dimooooon_v)
 ##### По почте [dmitriyvolkov002@gmail.com]() </br>
