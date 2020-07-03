@@ -8,5 +8,5 @@
 
 ## Стоимость разработки веб-сайта можно узнать, [перейдя по этой ссылке](http://interval-web-studio.ru/) </br> Или написав мне:
 ##### ВКОНТАКТЕ: [https://vk.com/dimooooon_v](https://vk.com/dimooooon_v)
-##### По почте: dmitriyvolkov002@gmail.com
+##### Почта: dmitriyvolkov002@gmail.com
 ##### Телеграм: dmitriy_volkov1
