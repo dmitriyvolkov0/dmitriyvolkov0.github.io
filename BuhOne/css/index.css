@@ -56,43 +56,7 @@
     transition: 0.2s;
 }
 
-/* navigation */
 
-.top-menu {
-    position: fixed;
-    width: 100%;
-    height: 110px;
-    background: #fff;
-    z-index: 9999;
-}
-
-.img-logo {
-    width: 40px;
-    height: 40px;
-}
-
-.logo-text {
-    display: inline-block;
-    position: relative;
-    top: 10px;
-    left: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 36px;
-}
-
-.navigation a {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #333;
-    line-height: 110px;
-}
-
-.navigation a:hover {
-    color: #005FA3;
-}
 
 /* main screen */
 
@@ -112,6 +76,7 @@
     margin: 0;
     padding-top: 280px;
     font-size: 48px;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -219,7 +184,8 @@
     padding-bottom: 50px;
     letter-spacing: 1px;
 }
-.review-item img{
+
+.review-item img {
     display: inline-block;
 }
 

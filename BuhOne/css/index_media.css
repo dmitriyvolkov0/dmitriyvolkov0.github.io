@@ -47,6 +47,15 @@
 }
 
 @media screen and (max-width: 767px) {
+    .main-screen-title {
+        font-size: 36px;
+        text-align: center;
+        line-height: 140%;
+    }
+    .main-screen a {
+        display: block;
+        margin: 45px auto;
+    }
     .title {
         font-size: 36px;
         padding-top: 25px;
@@ -92,9 +101,57 @@
     .footer .contacts {
         text-align: center;
     }
-    .footer #send_but{
+    .footer #send_but {
         display: block;
         margin: 0 auto;
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .description {
+        font-size: 12px;
+    }
+    .top_description {
+        font-size: 18px;
+    }
+    .main-section {
+        padding: 80px 0;
+    }
+    .service-item img {
+        width: 100%;
+    }
+    .service-title {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .about .title {
+        padding-bottom: 30px;
+    }
+    .clients {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main-screen-title {
+        padding-top: 245px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .about-item {
+        width: 140px;
+        height: 140px;
+        padding: 8px 0 8px 20px;
+    }
+    .about .about-item-count {
+        font-size: 40px;
+        margin: 0;
     }
 }

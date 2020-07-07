@@ -1,0 +1,109 @@
+/* navigation */
+
+.top-menu {
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    background: #fff;
+    z-index: 9999;
+}
+
+.img-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-text {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+}
+
+.navigation a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    line-height: 110px;
+}
+
+.navigation a:hover {
+    color: #005FA3;
+}
+
+#menu_button {
+    display: none;
+    background: url('../img/menu_but.png') center center no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#menu_button:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+/* ================= media ===================*/
+
+@media screen and (max-width: 1200px) {
+    .navigation a {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .logo-text {
+        font-size: 30px;
+    }
+    .navigation a {
+        font-size: 14px;
+    }
+    .img-logo {
+        margin-top: 20px;
+    }
+    .logo-text {
+        top: 15px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .top-menu {
+        height: 70px;
+    }
+    .img-logo {
+        margin: 0;
+        position: relative;
+        top: 10px;
+    }
+    .logo-text {
+        margin: 0;
+    }
+    .submenu {
+        display: none;
+        margin-top: 10px;
+        background: #fff;
+        width: 100%;
+    }
+    .navigation a {
+        display: block;
+        line-height: 30px;
+    }
+    .navigation a:hover {
+        background: #eee;
+    }
+    #menu_button {
+        display: inline-block;
+    }
+}
