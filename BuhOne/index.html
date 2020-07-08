@@ -187,14 +187,13 @@
                     <h1 class="title">С нами работают</h1>
 
                     <div class="clients-slider slider-slider">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img src="img/microsoft.png" alt="microsoft">
+                        <img src="img/clients/1.png" alt="Газпром">
+                        <img src="img/clients/2.png" alt="Лукойл">
+                        <img src="img/clients/3.png" alt="Mail">
+                        <img src="img/clients/4.png" alt="Avito">
+                        <img src="img/clients/5.png" alt="Nissan">
+                        <img src="img/clients/6.png" alt="Megafon">
+                        <img src="img/clients/7.png" alt="microsoft">
                     </div>
                     <div class="section-arrows">
                         <div class="clients-down-arrows"></div>
@@ -314,8 +313,35 @@
             autoplaySpeed: 3000,
             appendArrows: $('.clients-down-arrows'),
             prevArrow: '<button id="prev" type="button" class="left-arrow arrows-arrows"></button>',
-            nextArrow: '<button id="next" type="button" class="right-arrow arrows-arrows "></button>'
+            nextArrow: '<button id="next" type="button" class="right-arrow arrows-arrows "></button>',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 540,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
+
+        $('.center').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                
+            });
 
         $('.reviews-slider').slick({
             slidesToShow: 1,
