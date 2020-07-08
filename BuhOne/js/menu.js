@@ -7,7 +7,7 @@ $('#menu_button').click(function(){
             if (active == 0){
                 $('#menu_button').css({
                     'transform': 'rotate(360deg)',
-                    'background':'url("../img/menu_close_but.png") center center no-repeat',
+                    'background':'url("img/menu_close_but.png") center center no-repeat',
                     'backgroundSize': 'contain',
                     'transition': '0.3s'
                 });
