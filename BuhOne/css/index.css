@@ -56,6 +56,9 @@
     transition: 0.2s;
 }
 
+.button_but:focus{
+    color: #fff;
+}
 
 
 /* main screen */

@@ -5,8 +5,14 @@
     .about-item {
         width: 200px;
         height: 200px;
-        padding: 15px 0 15px 30px;
+        padding: 10px 0 10px 30px;
+        margin: 5px;
     }
+
+    .about-item-count{
+        margin-bottom: 5px;
+    }
+
     .review-item {
         padding: 45px;
     }
@@ -33,12 +39,12 @@
         margin-top: 120px;
     }
     .about-item {
-        width: 160px;
-        height: 160px;
-        padding: 10px 0 10px 25px;
+        width: 170px;
+        height: 180px;
+        padding: 10px 0 10px 20px;
     }
     .about .about-item-count {
-        font-size: 44px;
+        font-size: 42px;
     }
     .about .about-item-complete {
         font-size: 12px;

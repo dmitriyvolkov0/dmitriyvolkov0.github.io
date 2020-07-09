@@ -23,16 +23,5 @@ $('#menu_button').click(function(){
             }
     });
     
-    
-    
 });
-
-
-
-
-// $("#menu_button").animate({
-    
-// }, 200, function () {
-//     // Animation complete.
-// });
 
