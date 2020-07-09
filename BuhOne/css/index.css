@@ -56,15 +56,14 @@
     transition: 0.2s;
 }
 
-.button_but:focus{
+.button_but:focus {
     color: #fff;
 }
-
 
 /* main screen */
 
 .main-screen {
-    background: url('../img/first-screen.jpg') center center no-repeat;
+    background: url('../img/first-screen.webp') center center no-repeat;
     width: 100%;
     height: 670px;
     background-size: cover;
@@ -155,12 +154,12 @@
 }
 
 .left-arrow {
-    background: url('../img/left-arrow.png') center center no-repeat;
+    background: url('../img/left-arrow.webp') center center no-repeat;
     /* right: 51px; */
 }
 
 .right-arrow {
-    background: url('../img/right-arrow.png') center center no-repeat;
+    background: url('../img/right-arrow.webp') center center no-repeat;
     /* right: 0; */
 }
 
@@ -213,7 +212,7 @@
 /* footer */
 
 .footer {
-    background: url('../img/footer.jpg') center center no-repeat;
+    background: url('../img/footer.webp') center center no-repeat;
     width: 100%;
     background-size: cover;
     background-attachment: fixed !important;
