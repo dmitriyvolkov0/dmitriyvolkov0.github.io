@@ -1,5 +1,3 @@
-/* settings */
-
 .title {
     font-size: 48px;
     font-weight: 600;
@@ -7,33 +5,31 @@
     padding-top: 30px;
     padding-bottom: 80px;
     margin: 0;
-    line-height: 140%;
+    line-height: 140%
 }
 
 .description {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 100
 }
 
 .top_description {
     font-size: 24px;
     color: #acacac;
-    margin: 0;
+    margin: 0
 }
 
 .main-section {
-    padding: 140px 0;
+    padding: 140px 0
 }
 
 .gray_bg {
-    background: #EBEBEB;
+    background: #EBEBEB
 }
 
 .cl_1 {
-    color: #005FA3;
+    color: #005FA3
 }
-
-/* buttons */
 
 .button_but {
     display: block;
@@ -45,7 +41,7 @@
     background: #005FA3;
     color: #fff;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.2s
 }
 
 .button_but:hover {
@@ -53,14 +49,12 @@
     color: #9ecef3;
     background: #0273c3;
     transform: scale(1.05);
-    transition: 0.2s;
+    transition: 0.2s
 }
 
 .button_but:focus {
-    color: #fff;
+    color: #fff
 }
-
-/* main screen */
 
 .main-screen {
     background: url('../img/first-screen.webp') center center no-repeat;
@@ -70,7 +64,7 @@
     background-attachment: fixed !important;
     -webkit-background-attachment: fixed !important;
     -moz-background-attachment: fixed !important;
-    -ms-background-attachment: fixed !important;
+    -ms-background-attachment: fixed !important
 }
 
 .main-screen-title {
@@ -79,20 +73,18 @@
     padding-top: 280px;
     font-size: 48px;
     font-weight: 600;
-    color: #fff;
+    color: #fff
 }
-
-/* services */
 
 .service-item {
     position: relative;
     padding-bottom: 30px;
-    transition: 0.2s;
+    transition: 0.2s
 }
 
 .service-item:hover {
     transform: scale(1.05);
-    transition: 0.2s;
+    transition: 0.2s
 }
 
 .service-title {
@@ -102,13 +94,11 @@
     font-size: 24px;
     padding-left: 7%;
     line-height: 130%;
-    letter-spacing: 3px;
+    letter-spacing: 3px
 }
 
-/* about us */
-
 .about .title {
-    padding-bottom: 40px;
+    padding-bottom: 40px
 }
 
 .about-item {
@@ -116,100 +106,89 @@
     height: 255px;
     background: #EBEBEB;
     padding: 40px 0 30px 40px;
-    margin: 10px 0;
+    margin: 10px 0
 }
 
 .about-item:hover, .about-item:hover a {
     background: #005FA3;
-    color: #fff;
+    color: #fff
 }
 
 .about-item-count {
     font-size: 55px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .about-item-complete {
     font-size: 14;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .all-cases {
     color: #005FA3;
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: 600
 }
-
-/* clients */
 
 .clients-slider img {
     object-fit: contain;
-    height: 80px;
+    height: 80px
 }
 
-/* slider settings =====*/
-
 .slider-slider {
-    position: relative;
+    position: relative
 }
 
 .left-arrow {
-    background: url('../img/left-arrow.webp') center center no-repeat;
-    /* right: 51px; */
+    background: url('../img/left-arrow.webp') center center no-repeat
 }
 
 .right-arrow {
-    background: url('../img/right-arrow.webp') center center no-repeat;
-    /* right: 0; */
+    background: url('../img/right-arrow.webp') center center no-repeat
 }
 
 .arrows-arrows {
-    /* position: absolute; */
     background-color: #005FA3;
     padding: 25px;
     border: none;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 .arrows-arrows:hover {
-    background-color: #007cd9;
+    background-color: #007cd9
 }
-
-/* reviews */
 
 .review-item {
     background: #ebebeb;
-    padding: 45px 80px;
+    padding: 45px 80px
 }
 
 .review-item .description {
     padding-bottom: 50px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .review-item img {
-    display: inline-block;
+    display: inline-block
 }
 
 .review-item .data {
     display: inline-block;
     position: relative;
     top: 15px;
-    left: 10px;
+    left: 10px
 }
 
 .review-item .user-name {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .review-item .position {
     display: block;
     font-size: 14px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
-
-/* footer */
 
 .footer {
     background: url('../img/footer.webp') center center no-repeat;
@@ -219,25 +198,25 @@
     -webkit-background-attachment: fixed !important;
     -moz-background-attachment: fixed !important;
     -ms-background-attachment: fixed !important;
-    padding: 100px 0;
+    padding: 100px 0
 }
 
 .footer .title, .footer .description {
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .footer .title {
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
 .footer .description {
-    padding-bottom: 60px;
+    padding-bottom: 60px
 }
 
 .footer .contacts .contact {
     display: inline-block;
-    margin: 10px;
+    margin: 10px
 }
 
 .footer .contacts .contact .contact-inf {
@@ -245,27 +224,27 @@
     position: relative;
     top: 3px;
     color: #fff;
-    font-size: 21px;
+    font-size: 21px
 }
 
 .call_back input {
     display: inline-block;
     width: 250px;
-    margin-right: 15px;
+    margin-right: 15px
 }
 
 .call_back textarea {
     width: 525px;
-    height: 120px;
+    height: 120px
 }
 
 .call_back label p {
     font-size: 16px;
-    color: #FFF;
+    color: #FFF
 }
 
 .call_back .user-message-label {
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .call_back input, .call_back textarea {
@@ -275,10 +254,10 @@
     font-size: 21px;
     color: #fff;
     outline: none;
-    transition: 0.2s;
+    transition: 0.2s
 }
 
 .call_back input:focus, .call_back textarea:focus {
     border-bottom: 2px solid #005FA3;
-    transition: 0.2s;
+    transition: 0.2s
 }
