@@ -1,0 +1,160 @@
+/* ======================== header ========================*/
+@media screen and (max-width: 430px) {
+    .header-title{
+        font-size:40px;
+    }
+
+    .header-description{
+        font-size: 18px;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .header-title{
+        font-size:35px;
+    }
+
+    .header-description{
+        font-size: 16px;
+    }
+
+    .header-title, .header-description{
+        margin: 15px 0;
+    }
+}
+
+/* ======================== MAIN ======================== */
+/* =========== device =========== */
+@media screen and (max-width: 520px) {
+    .device .device-img{
+        width: 100%;
+    }
+
+    .device .device-textarea{
+        width: 83.5%;
+        height: 69%;
+        margin-top: 14%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 445px) {
+
+    .device .device-textarea{
+        width: 83.5%;
+        height: 67.5%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .device-img{display: none;}
+    .device .device-textarea{
+        position: static;
+        margin: 20px auto;
+        width: 98%;
+        height: 450px;
+    }
+}
+
+
+
+/*=========== paper ===========*/
+@media screen and (max-width: 1220px) {
+    .paper-overlay{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .paper{
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .paper{
+        overflow-x: scroll;
+        border:10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .paper{
+        overflow-x: hidden;
+    }
+    .paper-overlay{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 667px){
+    .paper{
+            overflow-x: scroll;
+    }
+    .paper-overlay{
+        display: block;
+    }
+
+}
+
+/*=========== font-settings and paper-settings ===========*/
+@media screen and (max-width: 1170px) {
+    /* background type */
+    .paper-settings .background-type-items{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .font-settings, .paper-settings{
+        margin-top: 30px;
+    }
+
+    /* background type */
+    .paper-settings .background-type-items{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /* background type */
+    .paper-settings .background-type-items{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px){
+    /* background type */
+    .paper-settings .background-type-items{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    /* paper type */
+    .paper-settings .paper-type-items{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0;
+    }
+
+    /* background type */
+    .paper-settings .background-type-items{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    /* background type */
+        .paper-settings .background-type-items{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+}

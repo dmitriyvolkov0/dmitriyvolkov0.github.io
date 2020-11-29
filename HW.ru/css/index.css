@@ -1,0 +1,354 @@
+/*========================= Custom =========================*/
+body,h1,h2,h3,h4,h5,h6,p,input,button,div,span,textarea,a{
+    font-family: 'Roboto', sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,h6,span,div,a{
+    color: #fff;
+}
+
+.but-but-1{
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    font-weight: 390;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    border:none;
+    outline: none;
+}
+
+.but-but-1:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+}
+
+.but-but-1:focus{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+}
+
+/*========================= Header =========================*/
+
+body{
+    background: #212121;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('../img/header-bg.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.header-title{
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    line-height: 4rem;
+}
+
+.header-description{
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 5px;
+    letter-spacing: 3px;
+    line-height: 5rem;
+}
+
+.header-title, .header-description{
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.header-line{
+    background: #fff;
+    width: 120px;
+    height: 2px;
+}
+
+.down-arrow{
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 100%;
+    margin-top: 50px;
+    transition: 0.2s;
+}
+
+.down-arrow:hover{
+    filter: invert(1);
+    background: #000;
+    transition: 0.2s;
+}
+
+/*========================= Main =========================*/
+.main-sec{
+    margin-top: 40px;
+}
+
+.main-sec .row{
+    margin: 0;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.main-subtitle{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.main-subtitle-2{
+    font-size: 16px;
+    font-weight: 360;
+    margin: 20px 0;
+}
+
+.main-line{
+    display: block;
+    margin: 25px auto 15px auto;
+    width: 160px;
+    height: 2px;
+    background: #fff;
+}
+
+/* ============= device ============= */
+.device{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.device .device-textarea{
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 28px;  
+    width: 431px;
+    height: 575px;
+}
+
+.device .translate-text-but{
+    display: block;
+    margin: 20px auto !important;
+}
+
+/* ============= paper ============= */
+.paper{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.paper-bg{
+    display: block;
+    margin: 0 auto;
+    /* background: url('../img/paper_templates/paper-1.png'); */
+    width: 617px;
+    height: 763px;
+    background-size: contain;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 64px;
+    transition: 0.4s;
+    
+}
+
+
+/* overlay */
+.paper-overlay{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    height: 766px;
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.scroll-img{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+}
+
+.scroll-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-left: -138px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+/* ============= font and paper =============*/
+.settings-wrapper{
+    display: flex;
+}
+
+/* ============= font-settings ============= */
+.font-settings{
+    display: block;
+    margin: 0 auto;
+}
+
+.font-settings .select-font-inp{
+    width: 180px;
+    padding: 8px;
+    font-size: 12px;
+    margin-left: 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.font-settings .label-blots{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.font-settings .create-font-but{
+    display: block;
+    margin: 10px auto;
+    width: 210px;
+} 
+
+/* ============= paper-settings ============= */
+.paper-settings{
+    display: block;
+    margin: 0 auto;
+}
+
+/* paper type */
+.paper-settings .paper-type-items{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.paper-settings .paper-item .paper-item-wrapper{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 70px;
+}
+
+.paper-settings .paper-item{
+    cursor: pointer;
+}
+
+.paper-settings .paper-item .paper-img{
+    width: 70px;
+}
+
+.paper-settings .paper-item .select-paper{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: -10px;
+    right: -10px;
+}
+
+/* color */
+.paper-settings .paper-fading .fading-inp{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.paper-settings .paper-fading .paper-fading-indicator{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* background type */
+.paper-settings .background-type-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+
+.paper-settings .background-type-items .background-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+}
+
+.paper-settings .background-type-items .background-item{
+    position: relative;
+    width: 80px;
+    cursor: pointer;
+}
+
+.paper-settings .background-type-items .select-background{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: -10px;
+    right: -10px;
+}
+
+.get-handwrite-but{
+    display: block;
+    margin: 30px auto;
+}
+
+
+/* letters */
+.letters {
+    text-align: left;
+    padding-top: 26px;
+}
+
+.letters .word{
+    display: inline-block;
+    position: relative;
+    height: 38px;
+    /* padding-top: 10px; */
+}
+
+.letters .word .letter{
+    position: relative;
+    bottom: 0;
+}
+
+.letters .word .lowercase{
+    height: 15px;
+}
+
+.letters .word .uppercase{
+    height: 25px;
+    margin-top: -2px;
+}
+
+.letters .word .numbers{
+    top: 8px;
+    height: 22px;
+}
+
