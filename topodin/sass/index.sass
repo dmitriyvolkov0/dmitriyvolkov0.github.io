@@ -1,0 +1,1005 @@
+@import 'fonts'
+
+
+// titles
+.title-1
+    font-size: 30px
+    font-weight: 500
+    color: #0e9ed6
+    padding-left: 45px
+    margin-bottom: 28px
+    font-family: dax-medium
+
+.title-2
+    font-size: 24px
+    
+    font-weight: 500
+    font-family: dax-medium
+
+.title-3
+    font-size: 18px
+    font-family: dax-medium
+
+.title-4
+    font-size: 16px
+    font-family: prox-bold
+
+// colors
+$brand: #016fbe
+    
+.cl-white
+    color: #fff
+.cl-brand
+    color: #016fbe
+
+// buttons
+.but-1, .but-2, .but-3, .but-4
+    display: flex
+    align-items: center
+    justify-content: center
+    text-decoration: none
+    outline: none
+    color: #fff
+    transition: 0.2s
+    font-family: 'calib-bold'
+    &:hover
+        color: #fff
+        transform: scale(1.1) 
+
+.but-1
+    width: 195px
+    height: 45px
+    background: transparent
+    border: 2px solid #fff
+    font-size: 21px
+    border-radius: 100px
+.but-2
+    width: 215px
+    height: 50px
+    background: $brand
+    border: none
+    box-shadow: 0 0 25px rgba(1, 11, 190, 0.3)
+    border-radius: 100px
+.but-3
+    height: 51px
+    width: 215px
+    background: $brand
+    border-radius: 15px
+    font-size: 22px
+    border: none
+.but-4
+    width: 252px
+    height: 48px
+    background: transparent
+    border: 2px dashed #fff
+    border-radius: 10px
+    font-size: 20px
+    font-family: 'seg-semibold'
+
+// settings
+body
+    font-family: 'prox-reg'
+    background: #333
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+ul
+    list-style: none
+    margin: 0
+    padding: 0
+
+.main-container
+    // display: flex
+    max-width: 1260px
+    margin: 0 auto
+    background: #fff
+    padding-left: 120px
+    .main-sec
+        width: 100%
+        padding-right: 21px
+        padding-left: 20px
+
+.line-1
+    margin: 25px 0
+    width: 55px
+    height: 1px
+    background: #333
+
+.line-2
+    margin: 33px 0
+    width: 51px
+    height: 2px
+    background: #dedede
+
+// shadows
+%shadow-1
+    box-shadow: 0 0 27px rgba(0, 0, 0, 0.15)
+// gradients
+%gradient-1
+    background: linear-gradient(170deg, rgba(1,111,190,1) 0%, #2bd2ec 100%)
+
+// arrows for sliders
+.slider-arrows
+    position: absolute
+    z-index: 2
+    top: 50%
+    margin-top: 31px
+    width: 62px
+    height: 62px
+    border-radius: 100px
+    outline: none
+    background: #fff
+    border: none
+    @extend %shadow-1
+    
+// =============================================
+
+// offer 1
+.offer-1
+    padding-top: 140px
+    .offer
+        background: url('../img/offer/bg1.webp') no-repeat
+        
+// offer 2
+.offer-2
+    position: relative
+    padding-top: 90px
+    .offer
+        background: $brand
+        .left, .right
+            z-index: 2
+            position: relative
+    .offer__bg
+        position: absolute
+        bottom: 0
+        right: 0
+
+
+
+// common for offers
+.offer
+    display: grid
+    grid-template-columns: 1.3fr 1fr
+    width: 100%
+    height: 407px
+    padding: 53px 25px 37px 0
+    border-radius: 10px
+    &__title
+        padding-left: 45px
+        margin: 0
+    &__ul
+        padding-left: 45px
+        padding-top: 30px
+        padding-bottom: 38px
+    &__end-title
+        font-size: 18px
+        font-family: 'dax-medium'
+        background: #e3e3e3
+        padding: 11px 26px 8px 45px
+        border-radius: 0 10px 10px 0
+        color: $brand
+    &__end-sec
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        max-width: 230px
+        padding-left: 48px
+        .time
+            padding-top: 5px
+            font-family: 'calib'
+            font-size: 48px
+            &::after
+                content: ':'
+        .text
+            font-family: 'dax-medium'
+            font-size: 12px
+            margin-top: -10px
+    .right
+        .application
+            &__title
+                margin-left: auto
+                width: 160px
+                margin-bottom: 25px
+            &__label
+                display: block
+                margin-left: auto
+                width: 195px
+                margin-bottom: 7px
+            &__input
+                display: block
+                margin-left: auto
+                width: 195px
+                padding: 6px 15px
+                font-size: 16px
+                border-radius: 10px
+                border: none
+                margin-bottom: 20px
+            .participation-but
+                width: 195px
+                margin-left: auto
+
+
+// clients
+.results-wrapper
+    padding-top: 84px
+    .title-1
+        margin-bottom: 40px
+    .results
+        position: relative
+        padding: 65px 45px
+        border-radius: 20px
+        @extend %shadow-1
+        
+        // arrows
+        &__left
+            left: -31px
+        &__right
+            right: -31px
+        .top
+            display: grid
+            grid-template-columns: 1fr 1fr
+            grid-row-gap: 10px
+            .title, .text
+                color: #a0a0a0
+                font-family: calib-bold
+
+        &__section
+            margin-top: 48px
+        &__item
+            border-radius: 10px
+            border: 1px solid #eee
+            padding: 23px 25px 6px 25px
+            margin: 10px
+            transition: 0.2s
+            @extend %shadow-1
+            .logo
+                margin-bottom: 10px
+            .table
+                margin: 0
+                td,th
+                    border: none
+                    padding: 0
+                th
+                    padding-bottom: 20px
+                td
+                    padding-bottom: 12px
+                .title
+                    color: #c2c1c1
+                    font-size: 16px
+                    margin-bottom: 15px
+                    font-family: calib-bold
+                td:nth-child(2n), td:nth-child(3n)
+                    text-align: center
+                td:first-child
+                    color: $brand
+                    font-size: 16px
+                    font-family: calib-bold
+                td:nth-child(2n)
+                    font-size: 16px
+                    font-family: 'calib'
+                td:nth-child(3n)
+                    color: #55c5d0
+                    font-family: calib-bold
+                    font-size: 16px
+
+        .site
+            &__item
+                border-radius: 10px
+                border: 1px solid #eee
+                padding: 23px 25px 0 25px
+                margin: 40px 10px 10px 10px
+                transition: 0.2s
+                @extend %shadow-1
+            &__item:hover
+                transform: scale(1.03)
+            &__title
+                font-family: 'calib'
+            .span-1
+                color: #0095da
+            .span-2
+                color: #5cc7d1
+            &__img
+                padding-top: 30px
+                padding-bottom: 30px
+
+        &__item:hover
+            transform: scale(1.03)
+                
+// monitoring
+.monitoring-wrapper
+    margin-top: 65px
+    .title-1
+        margin-bottom: 40px
+        font-size: 34px
+    .monitoring
+        background: url('../img/monitoring/bg.webp')
+        padding: 75px 30px 50px 30px
+        &__title
+            font-family: 'calib'
+            max-width: 845px
+            margin: 0 auto
+            padding-bottom: 110px
+        &__item
+            display: flex
+            align-items: center
+            margin-bottom: 65px
+            transition: 0.2s
+            &:hover
+                transform: scale(1.07)
+            .monitoring__text
+                font-family: 'calib'
+        
+        .main
+            display: flex
+            justify-content: center
+            .center
+                position: relative
+                .fig
+                    position: absolute
+                    transition: 0.2s
+                    &:hover
+                        transform: scale(1.07)
+                .fig-1
+                    top: -100px
+                    left: 90px
+                .fig-2
+                    top: 20px
+                    right: 0
+            .left
+                max-width: 230px
+                .monitoring__text
+                    padding-left: 20px
+            .right
+                max-width: 230px
+                .monitoring__item
+                    justify-content: flex-end
+                    .monitoring__text
+                        padding-right: 20px
+                        text-align: right
+        .tariff-but
+            margin: 0 auto
+            width: 247px
+    
+// work
+.work
+    padding-top: 100px
+    .title-1
+        padding-bottom: 45px
+    .main
+        display: flex
+        
+    .right
+        max-width: 295px
+    &__item
+        display: flex
+        flex-direction: column
+        justify-content: center
+        height: 175px
+        transition: .2s
+        &:hover
+            transform: scale(1.03)
+        
+        .title
+            font-size: 28px
+            font-family: 'calib-bold'
+        .description
+            font-size: 20px
+            font-family: 'calib'
+    .status
+        background: #fbfbfb
+        padding: 59px 11px 0 25px
+        // width: 100%
+        .line
+            background: $brand
+            width: 95px
+            height: 4px
+            margin: 34px 0
+        &__text
+            font-size: 18px
+            font-family: 'calib'
+            padding-bottom: 55px
+            margin: 0
+    .select-serv-but
+        width: 407px
+        font-size: 16px
+        text-transform: uppercase
+        font-family: 'prox-bold'
+        margin: 0 auto
+
+// clients
+.clients
+    margin-top: 75px
+    padding: 60px 65px
+    background: url('../img/clients/bg.webp')
+    &__title
+        margin: 0
+        padding: 0
+    &__sub-title
+        font-size: 20px
+        font-family: 'calib'
+        max-width: 676px
+        width: 100%
+        padding-bottom: 50px
+    &__items
+        display: flex
+        flex-wrap: wrap
+    &__item
+        display: flex
+        align-items: start
+        max-width: 50%
+        margin-bottom: 75px
+        transition: .2s
+        &:hover
+            transform: scale(1.05)
+        .text-sec
+            display: flex
+            flex-direction: column
+            padding-left: 25px
+            .title
+                font-size: 18px
+                font-family: 'calib-bold'
+                margin-bottom: 20px
+            .description
+                font-size: 18px
+                font-family: 'calib'
+                margin: 0
+
+// price
+.price
+    padding-top: 76px
+    .line-1
+        margin-left: 45px
+    .price__description
+        padding-left: 45px
+        font-size: 20px
+        font-family: 'calib'
+        max-width: 880px
+        padding-bottom: 45px
+    // first
+    &__items-first
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between        
+        .price__item
+            padding: 37px 31px
+            background: #fff
+            width: 100%
+            max-width: 330px
+            border-radius: 20px
+            margin-bottom: 40px
+            @extend %shadow-1
+        .tariff-label
+            display: flex
+            align-items: center
+            justify-content: center
+            height: 28px
+            border-radius: 10px
+            font-size: 18px
+            font-family: 'calib-bold'
+            margin-bottom: 32px
+            color: #fff
+        // ------
+        .light
+            background: #dee7ed
+            width: 150px
+        .yandex-google
+            background: #bfccd6
+            width: 175px
+        .pro
+            width: 210px
+            background: #7a9cb7
+        // ------
+            
+        .title
+            font-size: 30px
+            font-family: 'calib-bold'
+            margin-bottom: 16px
+            line-height: 20px
+        .region
+            display: block
+            margin-bottom: 33px
+            color: #8a8a8a
+            font-family: 'calib'
+            line-height: 14px
+        .list
+            list-style: disc
+            color: $brand
+            font-size: 18px
+            padding-left: 32px
+            span
+                color: #8a8a8a
+        .start-price
+            display: block
+            margin-bottom: 11px
+            color: #bbbbbb
+            font-family: 'calib-bold'
+            text-transform: uppercase
+            letter-spacing: 3px
+        .total
+            display: block
+            margin-bottom: 12px
+            font-size: 50px
+            font-family: 'calib-bold'
+            line-height: 34px
+            color: $brand
+        .rub
+            display: block
+            font-family: 'calib-bold'
+            font-size: 18px
+            margin-bottom: 31px
+        .select-tariff-but
+            margin: 0 auto
+
+    // second
+    &__items-second
+        .price__item
+            padding: 49px 29px 55px 29px
+            background: #fff
+            width: 100%
+            max-width: 328px
+            border-radius: 20px
+            margin-bottom: 30px
+            font-family: 'calib'
+            @extend %shadow-1
+            .advance
+                color: #c5c5c5
+                font-size: 20px
+                text-transform: uppercase
+                margin-bottom: 13px
+                line-height: 15px
+            .payment
+                color: #212121
+                font-family: 'calib-bold'
+                text-transform: uppercase
+                font-size: 26px
+                line-height: 25px
+                margin-bottom: 20px
+            .total
+                font-size: 36px
+                font-family: 'calib-bold'
+                line-height: 30px
+                margin-bottom: 30px
+                .start
+                    font-size: 26px
+                    color: #dfdfdf
+            .sub-item
+                .item-title
+                    font-size: 16px
+                    font-family: 'calib-bold'
+                    text-transform: uppercase
+                    margin-bottom: 12px
+                    line-height: 12px
+                .item-description
+                    font-size: 16px
+                    margin: 0
+                .item-ul
+                    list-style: disc
+                    padding-left: 32px
+                    span
+                        color: #000
+                &::after
+                    content: ''
+                    display: block
+                    width: 100%
+                    height: 1px
+                    border-bottom: 1px dashed #b7b7b7
+                    margin: 20px 0
+            .last
+                &::after
+                    content: ''  
+                    display: none    
+            .select-tariff-but
+                margin: 0 auto
+                margin-top: 30px
+                @extend %shadow-1
+
+//blog
+.blog
+    margin-top: 95px 
+    // .slick-list
+        // padding: 10px
+    &__title
+        margin-bottom: 45px
+    &__slider
+        font-family: 'prox-reg'
+        color: #333
+        &:first-of-type
+            margin-bottom: 50px
+    .blog_select-span
+        color: #41a7eb
+    &__item
+        max-width: 510px
+        width: 100%
+        background: #fff
+        margin: 0 auto
+        .top
+            display: flex
+            justify-content: space-between
+            margin-bottom: 12px
+            p
+                margin: 0
+            .rating
+                display: flex
+                &__text
+                    padding-right: 10px
+                img
+                    display: inline-block
+    .main
+        padding-top: 25px
+        padding-left: 32px
+        padding-right: 24px
+        border: 1px solid #d9e2ed
+    &__item-title
+        font-size: 22px
+        font-family: 'prox-semibold'
+        margin-bottom: 17px
+        line-height: 20px
+    &__item-description
+        font-family: 'prox-reg'
+        font-size: 16px
+        line-height: 20px
+    .bottom
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 4px 32px
+        border: 1px solid #d9e2ed
+        p
+            margin: 0
+        .user
+            .avatar
+                display: inline-block
+            .name
+                display: inline-block
+                padding-left: 7px
+    &__arrows
+        margin-top: -31px
+    &__left-arrow
+        left: -10px
+    &__right-arrow
+        right: -10px
+
+// reviews
+.reviews
+    margin-top: 65px
+    &__title
+        margin-bottom: 35px
+    &__items
+        // display: flex
+        // flex-wrap: wrap
+        // justify-content: space-around
+        .slick-list
+            padding: 20px 0
+    &__item
+        max-width: 328px
+        width: 100%
+        font-family: 'calib'
+        margin: 0 auto
+        .top
+            display: flex
+            align-items: center
+            padding: 35px 22px 23px 22px
+            color: #fff
+            border-top-right-radius: 25px
+            border-top-left-radius: 25px
+            font-family: 'calib-bold'
+            @extend %gradient-1
+            .title
+                font-size: 20px
+                margin-bottom: 5px
+                text-transform: uppercase
+            .link
+                font-size: 18px
+                margin: 0
+            .result
+                display: flex
+                align-items: center
+                justify-content: center
+                font-size: 20px
+                width: 53px
+                height: 53px
+                border: 5px solid #fff
+                border-radius: 100%
+                margin-left: auto
+                margin-bottom: 0
+        .main
+            padding: 34px 22px 19px 22px
+            background: url('../img/reviews/bg.webp') center bottom no-repeat
+            border-bottom-right-radius: 25px
+            border-bottom-left-radius: 25px
+            @extend %shadow-1
+            .description
+                font-size: 16px
+                line-height: 18px
+                color: #2c2c2c
+                margin-bottom: 30px
+            .user-name
+                color: #494949
+                font-size: 18px
+                font-family: 'calib-bold'
+                margin-bottom: 8px
+                line-height: 18px
+            .user-position
+                font-size: 12px
+                color: #494949
+                line-height: 12px
+                margin-bottom: 40px
+            .indicators
+                &__item
+                    display: flex
+                    align-items: center
+                    margin-bottom: 15px
+                    p
+                        margin: 0
+                        font-family: 'calib-bold'
+                    .indicator
+                        font-size: 18px
+                        margin: 0 15px
+                    .text
+                        font-size: 16px
+                        color: #8d8d8d
+
+// questions
+.questions
+    margin-top: 67px
+    &__title
+        margin-bottom: 35px
+
+    .accordeon
+        &__item
+            position: relative
+            max-width: 1056px
+            border-radius: 15px
+            margin: 0 auto
+            margin-bottom: 50px
+            cursor: pointer
+            transition: .2s
+            @extend %shadow-1
+            &:hover
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.3)
+        .top    
+            padding: 22px 32px 22px 44px
+
+        &__title
+            display: inline-block
+            position: relative
+            top: 5px
+            font-size: 28px
+            font-family: 'prox-bold'
+            margin: 0
+            padding-left: 18px
+        &__toggle-but
+            position: absolute
+            top: 18px
+            right: 30px
+            font-size: 34px
+            font-family: 'prox-bold'
+            color: $brand
+            margin-left: auto
+            width: 51px
+            height: 51px
+            background: none
+            border-radius: 100%
+            border: 2px solid #d9d9d9
+        &__text
+            font-family: 'prox-reg'
+            font-size: 22px
+            padding-right: 32px
+            padding-left: 44px
+            padding-bottom: 60px
+            max-width: 900px
+            margin: 0
+            span
+                font-family: 'prox-reg-it'
+                color: #b1b1b1
+
+        .toggle-top
+            display: none
+            align-items: center
+            .popular
+                display: flex
+                align-items: center
+                justify-content: center
+                border-radius: 10px
+                color: #fff
+                font-family: 'prox-bold'
+                font-size: 18px
+                width: 216px
+                height: 30px
+                margin: 0
+                @extend %gradient-1
+            .views
+                display: flex
+                align-items: center
+                margin-left: 27px
+                &__text
+                    color: #b1b1b1
+                    font-size: 18px
+                    font-family: 'prox-reg'
+                    padding-left: 10px
+
+        // when the accordion is active
+        .top.active
+            .toggle-top
+                display: flex
+                margin-top: 30px
+                margin-bottom: 25px
+                
+
+// why-we
+.why-we
+    position: relative
+    margin-top: 80px
+    color: #fff
+    background: url('../img/why-we/bottom.webp') center bottom no-repeat
+    background-color: $brand
+    padding: 94px 40px 110px 40px
+    font-family: 'calib'
+    &__title
+        padding-left: 0
+        text-align: center
+        line-height: 30px
+        margin-bottom: 53px
+    &__subtitle
+        text-align: center
+        font-family: 'calib-bold'
+        line-height: 21px
+        margin-bottom: 33px
+    &__description
+        display: block
+        margin: 0 auto
+        margin-bottom: 35px
+        max-width: 695px
+        text-align: center
+        line-height: 19px
+        font-size: 20px
+    &__sec
+        display: flex
+        justify-content: space-between
+        .title
+            font-size: 24px
+            line-height: 24px
+            font-family: 'calib-bold'
+            margin-top: 99px
+            margin-bottom: 19px
+        .description
+            font-size: 20px
+            line-height: 22px
+            margin: 0
+        .description-2
+            margin-top: 88px
+        .left
+            max-width: 290px
+            .description
+                max-width: 270px
+        .right
+            .title
+                text-align: right
+            .description
+                max-width: 220px
+                text-align: right
+    .indicators
+        position: absolute
+        bottom: 105px
+        display: flex
+        justify-content: center
+        width: 100%
+        left: 0
+        &__item
+            margin: 0 43px
+            font-family: 'calib-bold'
+            .value
+                display: flex
+                align-items: center
+                justify-content: center
+                font-size: 64px
+                color: $brand
+                width: 225px
+                height: 225px
+                border-radius: 100%
+                background: url('../img/why-we/circle.webp') center center no-repeat
+                background-size: 90%
+                background-color: #fff
+                margin: 0 auto
+                margin-bottom: 36px
+            .text
+                font-size: 24px
+                max-width: 230px
+                margin-bottom: 0
+                letter-spacing: -1px
+                text-align: center
+
+// promotion
+.promotion
+    background: radial-gradient(circle, rgba(12,175,217,1) 0%, rgba(0,113,181,1) 100%) 
+    margin: 0 auto
+    margin-top: 55px
+    max-width: 1007px
+    padding: 52px 10px 47px 10px
+    border-top-left-radius: 12px
+    border-top-right-radius: 12px
+    &__title
+        text-align: center
+        font-size: 50px
+        line-height: 50px
+        font-family: 'seg-light'
+        margin-bottom: 15px
+    &__description
+        text-align: center
+        font-size: 16px
+        line-height: 16px
+        margin-bottom: 25px
+    &__order-but
+        margin: 0 auto
+    
+// footer
+.footer
+    background: #424242
+    padding: 50px 47px 0 47px
+
+    &__items
+        display: flex
+        justify-content: space-between
+    &__title
+        font-size: 22px
+        line-height: 22px
+        font-family: 'dax-medium'
+        margin-bottom: 26px
+    &__ul
+        li
+            font-size: 17px
+            font-family: 'dax-medium'
+            a
+                color: #fff3ce
+                text-decoration: none
+                &:hover
+                    color: lighten(#fff3ce, 10%)
+    
+    &__social
+        margin-top: 20px
+        img
+            margin-right: 8px
+    
+    &__bottom
+        display: flex
+        align-items: flex-end
+        justify-content: space-between
+        margin-top: 30px
+        .company
+            .logo
+                display: flex
+                align-items: center
+                &__line
+                    border-right: 1px solid #fff
+                    height: 68px
+                    margin: -12px 15px 12px 15px 
+                &__title
+                    font-size: 31px
+                    font-family: 'dax-black'
+                    text-transform: uppercase
+                    line-height: 20px
+                    margin-bottom: 8px
+                &_select
+                    color: #15b3da
+                &__subtitle
+                    font-size: 13px
+                    font-family: 'dax-black'
+                &__description
+                    font-size: 14px
+                    font-family: 'dax-medium'
+                    margin: 0
+                    max-width: 487px
+        .payments
+            display: flex
+            flex-direction: column
+            align-items: center
+            &__inf
+                font-size: 14px
+                font-family: 'dax-medium'
+                background: #5e5e5e
+                padding: 18px 18px 12px 18px
+                margin-bottom: 0
+                max-width: 284px
+                border-top-left-radius: 10px
+                border-top-right-radius: 10px
+                text-align: center
+@import 'media'
