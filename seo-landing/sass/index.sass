@@ -1,0 +1,584 @@
+@import '_settings'
+@import '_variables.sass'
+@import '_fonts.sass'
+
+// main-screen
+.main-screen
+    background: url('../img/index/header/bg.webp') no-repeat
+    background-size: cover
+    background-color: #333
+    max-height: 820px
+    height: 100vh
+    width: 100%
+    color: #fff
+    .container
+        height: 100%
+    &__wrapper
+        display: flex
+        flex-direction: column
+        justify-content: center
+        max-width: 720px
+        margin-left: auto
+        height: 100% 
+    &__title
+        font-size: 75px
+        line-height: 1.03
+        font-family: 'ProximaNova'
+        margin-bottom: 40px
+    &__subtitle
+        font-size: 30px
+        font-family: 'ProximaNova-It'
+    &__line
+        width: 90px
+        height: 3px
+        background: #fff
+        margin: 40px 0
+    &__description
+        font-size: 22px
+        margin-bottom: 40px
+    &__form
+        display: flex
+        flex-wrap: wrap
+    //     justify-content: space-evenly
+    &__inp
+        margin-bottom: 40px
+    .address-inp
+        margin-right: 25px
+    &__warranty
+        display: flex
+        align-items: center
+        max-width: 340px
+        font-weight: bold
+    &__but
+        margin-right: 35px
+    &__warranty-text
+        font-size: 14px
+        padding-left: 10px
+        font-weight: 600
+
+// about
+.about
+    background: #1e1e1e
+    color: #fff
+    padding-bottom: 30px
+    &__row
+        display: flex
+    &__col-2
+        display: flex
+        align-items: center
+    &__title
+        text-align: center
+        padding-top: 60px
+        padding-bottom: 50px
+        color: #fff
+    &__img
+        max-width: 450px
+        width: 100%
+        height: auto
+        transition: .2s
+        &:hover
+            transform: scale(1.05)
+
+// cooperation
+.cooperation
+    background: url('../img/index/cooperation/bg.webp') center center no-repeat
+    background-color: $bg
+    .container
+        position: relative
+    &__row
+        display: flex
+        max-width: 1200px
+        margin: 0 auto
+    &__col-1
+        padding-bottom: 100px
+    &__title
+        position: relative
+        max-width: 770px
+        text-align: center
+        margin: 0 auto
+        line-height: 1
+        padding-top: 70px
+        padding-bottom: 60px
+        z-index: 1
+    &__item
+        display: flex
+        align-items: flex-start
+        margin-bottom: 30px
+        transition: .2s
+        &:hover
+            transform: scale(1.05)
+    &__item-icon
+        margin-top: 5px
+        margin-right: 10px
+        width: 30px
+        height: auto
+    &__item-title
+        font-size: 24px
+        font-weight: 600
+        color: #595f6a
+        line-height: 1
+        max-width: 656px
+        margin-bottom: 5px
+    &__item-description
+        font-size: 18px
+        color: #595f6a
+        max-width: 560px
+    &__img
+        position: absolute
+        bottom: 0
+        right: 0
+        max-width: 600px
+        width: 100%
+        height: auto
+
+// price
+.price
+    padding: 0 8px
+    padding-bottom: 70px
+    max-width: 1500px
+    margin: 0 auto
+    &__title
+        padding-top: 70px
+        padding-bottom: 60px
+        text-align: center
+    &__slide
+        padding: 10px
+    &__item
+        position: relative
+        padding-top: 20px
+        padding-bottom: 30px
+        background: #1b8d4e
+        max-width: 430px
+        border-radius: 40px
+        color: #fff
+        text-align: center
+        margin: 0 auto
+        transition: .2s
+        &:hover
+            transform: scale(1.03)
+    &__decor
+        position: absolute
+        left: 60px
+        top: 0
+    &__month
+        font-size: 50px
+        font-weight: 600
+    &__optimize
+        font-size: 18px
+    &__line
+        width: 70px
+        height: 2px
+        background: #fff
+        margin: 15px auto
+    &__list
+        text-align: left
+        list-style: none
+        padding: 0 25px
+        margin: 0
+        font-size: 20px
+        li
+            display: flex
+            align-items: center
+            margin-bottom: 12px
+            span
+                padding-left: 10px
+            img
+                width: 30px
+                height: auto
+    &__price
+        width: fit-content
+        border-radius: 10px
+        font-size: 28px
+        font-weight: 600
+        padding: 10px 30px
+        border: 2px dashed #fff
+        margin: 0 auto
+        margin-top: 20px
+    .price-1
+        background: url('../img/index/price/1.webp') center center no-repeat
+        background-color: #6cab59
+    .price-2
+        background: url('../img/index/price/2.webp') center center no-repeat
+        background-color: #1b8d4e
+    .price-3
+        background: url('../img/index/price/3.webp') center center no-repeat
+        background-color: #0e713a
+
+// when
+.when
+    background: $bg
+    padding: 80px 0
+    text-align: center
+    color: $text_cl
+    &__title
+        margin-bottom: 20px
+    &__subtitle
+        max-width: 830px
+        font-size: 32px
+        margin: 0 auto
+        margin-bottom: 20px
+    &__description
+        font-size: 24px
+        max-width: 1100px
+        margin: 0 auto
+        margin-bottom: 30px
+    &__but
+        margin: 0 auto
+
+// work
+.work
+    color: $text_cl
+    padding: 80px 0
+    &__title
+        text-align: center
+        margin-bottom: 20px
+    &__description
+        text-align: center
+        margin: 0 auto
+        margin-bottom: 30px
+        font-size: 22px
+        max-width: 860px
+    &__items
+        display: grid
+        grid-template-columns: 1fr 1fr
+    &__slide
+        width: 100%
+        max-width: 500px
+        &:nth-child(odd)
+            margin-left: auto
+            .work__item
+                margin-right: 15px
+        &:nth-child(even)
+            margin-right: auto
+            .work__item
+                margin-left: 15px
+    &__item
+        display: flex
+        align-items: center
+        padding: 10px 14px
+        background: $bg
+        border-radius: 10px
+        width: 100% 
+        margin-bottom: 15px
+        transition: .2s
+        &:hover
+            transform: scale(1.05)
+    &__item-img
+        height: 32px
+        width: auto
+    &__item-text
+        font-size: 18px
+        padding-left: 12px
+
+// call
+.call
+    background: url('../img/index/call/bg.webp') no-repeat
+    background-size: cover
+    background-color: #128031
+    width: 100%
+    color: #fff
+    padding: 40px 0
+    text-align: center
+    &__title
+        font-size: 40px
+        font-family: 'ProximaNova'
+        margin-bottom: 10px
+    &__description
+        margin-bottom: 20px
+        font-size: 24px
+    &__phone
+        margin-bottom: 30px
+    &__but
+        margin: 0 auto
+        font-weight: normal
+
+// optimize
+.optimize
+    &__row
+        display: flex
+    &__title
+        padding-top: 50px
+        padding-bottom: 30px
+    &__sidebar
+        color: #fff
+        padding: 40px 45px
+        background: url('../img/index/optimize/bg.webp') no-repeat
+        background-size: cover
+        background-color: #7c5fd3
+        width: fit-content
+        margin-left: auto
+        height: 100%
+        max-width: 460px
+    &__sidebar-title
+        font-size: 48px
+        font-weight: 600
+    &__sidebar-line
+        width: 145px
+        height: 2px
+        background: #fff
+        margin: 20px 0
+    &__sidebar-subtitle
+        font-size: 24px
+        font-weight: 200
+    &__sidebar-description
+        font-size: 20px
+        font-weight: 600
+        margin: 25px 0
+    .address-inp-2
+        margin-bottom: 20px
+    &__sidebar-but
+        margin: 30px auto
+    &__sidebar-warranty
+        font-size: 16px
+
+// seo
+.seo
+    background: url('../img/index/seo/bg.webp') no-repeat
+    background-size: cover
+    background-color: #ddd
+    width: 100%
+    text-align: center
+    padding: 70px 0
+    &__title
+        padding-bottom: 40px
+    &__slide
+        padding: 5px
+    &__items
+        margin-bottom: 30px
+    &__item
+        text-align: center
+        color: $text_cl
+        margin: 0 auto
+        max-width: 270px
+        transition: .2s
+        &:hover
+            transform: scale(1.05)
+    &__item-img
+        margin: 0 auto
+        margin-bottom: 20px
+        height: 100px
+        width: auto
+    &__item-text
+        font-size: 20px
+    &__but
+        margin: 0 auto
+
+// leader
+.leader
+    padding: 90px 0
+    color: $text_cl
+    &__title
+        max-width: 1000px
+        text-align: center
+        margin: 0 auto
+        margin-bottom: 50px
+    &__steps
+        display: flex
+        align-items: flex-start
+        background: url('../img/index/leader/img.webp') no-repeat
+        background-size: 340px
+        background-position: 100px 70px
+        background-color: #f1f7fb
+        border-radius: 50px
+        padding: 80px 60px
+        max-width: 1300px
+        margin: 0 auto
+    &__col-2
+        margin: 0 auto
+    &__steps-title
+        font-size: 38px
+        margin-bottom: 30px
+    &__steps-ul
+        list-style: none
+        padding: 0
+        margin: 0
+        li
+            font-size: 18px
+            padding: 20px 0 20px 30px
+            font-weight: 600
+            cursor: pointer
+            &:hover
+                color: #7b5fd3
+        li.active-step
+            background-color: #7b5fd3
+            color: #fff
+            border-radius: 50px 0 0 50px
+            position: relative
+            &::after
+                content: ''
+                background: url("../img/index/leader/arrow.webp") center right no-repeat
+                position: absolute
+                display: block
+                width: 190px
+                height: 100%
+                top: 0
+                left: 100%
+                z-index: 1
+
+    &__steps-cart
+        max-width: 550px
+        background: #fff
+        border-radius: 0 50px
+        border: 10px solid #d9e2e9
+        padding: 30px 30px 30px 35px
+    &__steps-cart-signature
+        font-size: 16px
+        opacity: 0.7
+        margin-bottom: 20px
+    &__steps-cart-title
+        font-size: 30px
+        margin-bottom: 15px
+    &__steps-cart-description
+        font-size: 16px
+        margin-bottom: 20px
+    &__steps-cart-checkboxes-ul
+        padding: 0
+        margin: 0
+        list-style: none
+        li
+            display: flex
+            align-items: center
+            font-size: 16px
+            margin-bottom: 10px
+            span
+                margin-left: 10px
+    &__steps-cart-order
+        display: flex
+        align-items: center
+        font-size: 18px
+        margin-top: 15px
+        span
+            font-size: 24px
+            font-weight: 600
+            margin-left: 10px
+    &__steps-cart-but
+        margin-top: 20px
+
+// warranty
+.warranty
+    width: 100%
+    background: url('../img/index/warranty/bg.webp') no-repeat
+    background-size: cover
+    background-color: #535353
+    color: #fff
+    text-align: center
+    padding: 50px 0
+    &__title
+        color: #fff
+        margin-bottom: 20px
+    &__slide
+        padding: 7px
+    &__items
+        margin-bottom: 20px
+    &__item
+        margin: 0 auto
+        padding: 40px 30px
+        cursor: pointer
+        transition: .2s
+        &:hover
+            transform: scale(1.05)
+    .active-warranty
+        background: #404040
+        border-radius: 50px
+        img
+                filter: hue-rotate(130deg)
+    &__img
+        display: block
+        margin: 0 auto
+        width: 90px
+        height: auto
+    &__text
+        margin-top: 10px
+        font-size: 20px
+    &__content
+        background: #212121
+        border-radius: 150px
+        padding: 20px 120px 30px 120px
+        max-width: 1100px
+        margin: 0 auto
+    &__content-title
+        color: #905efe
+        font-size: 38px
+    &__content-line
+        margin: 15px auto
+        background: #8c8c8c
+        width: 125px
+        height: 1px
+    &__content-description
+        font-size: 20px
+        margin: 0 auto
+
+// feedback
+.feedback
+    position: relative
+    padding: 50px 0
+    background: #23934e
+    color: #fff
+    text-align: center
+    .container
+        position: relative
+    &::before,
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        display: block
+        background-size: cover
+        height: 100%
+        width: 100%
+        z-index: 1
+    &::before
+        background: url('../img/index/feedback/left-bg.webp') top left no-repeat
+        max-width: 583px
+        left: 0
+    &::after
+        background: url('../img/index/feedback/right-bg.webp') top right no-repeat
+        max-width: 583px
+        right: 0
+        
+    &__title,
+    &__description, 
+    &__form
+        position: relative
+        z-index: 3
+
+    &__title
+        color: #fff
+    &__description
+        font-size: 24px
+        max-width: 710px
+        margin: 20px auto 30px auto
+    &__form-sec
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 30px
+        border: 4px solid #fff
+        width: 100%
+        max-width: 600px
+        box-sizing: border-box
+        margin: 0 auto
+    &__inp
+        color: #23934e
+        font-family: 'calibri'
+        font-size: 24px
+        max-width: 530px
+        width: 100%
+        &::placeholder
+            color: #23934e
+        &:nth-child(2)
+            margin: 30px auto
+    &__but
+        margin: 0 auto
+        margin-top: 30px
+    &__woman
+        position: absolute
+        right: 0
+        bottom: -50px
+        width: 356px
+        height: auto
+        z-index: 2
+
+
+    
+        
