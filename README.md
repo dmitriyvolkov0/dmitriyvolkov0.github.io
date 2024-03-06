@@ -11,6 +11,6 @@
 3. [https://dmitriyvolkov0.github.io/seosale/](https://dmitriyvolkov0.github.io/seosale/)
 
 ### Веб-приложения на react js
-1. Веб-приложение для танцевальной студии (разрабатывалась только для мобильных устройств) [https://dance-studio36.ru](https://dance-studio36.ru).
+1. Веб-приложение для танцевальной студии (разрабатывалась только для мобильных устройств): [https://dance-studio36.ru](https://dance-studio36.ru).
    Более подробно узнать о данном проекте вы можете перейдя в его [репозиторий](https://github.com/dmitriyvolkov0/dance-studio-app)
 3. fdg
