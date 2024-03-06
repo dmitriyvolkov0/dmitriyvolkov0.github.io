@@ -9,3 +9,6 @@
 1. [https://dmitriyvolkov0.github.io/seo-landing/](https://dmitriyvolkov0.github.io/seo-landing/)
 2. [https://dmitriyvolkov0.github.io/seosave/](https://dmitriyvolkov0.github.io/seosave/)
 3. [https://dmitriyvolkov0.github.io/seosale/](https://dmitriyvolkov0.github.io/seosale/)
+
+### Веб-приложения
+1. Веб-приложение для танцевальной студии (разрабатывалась только для мобильных устройств) [https://dance-studio36.ru](https://dance-studio36.ru)
