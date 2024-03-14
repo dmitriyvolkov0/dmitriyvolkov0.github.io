@@ -6,7 +6,7 @@
 4. Сайт коттеджного поселка "Писаревка": https://pisarevka.ru/
 5. https://e-discovery.ng/
    
-### Страницы для компании, занимающеся продвижением сайтов:  
+### Страницы для компании, занимающеся продвижением сайтов (установлены на cms wordpress):  
 1. [https://dmitriyvolkov0.github.io/seo-landing/](https://dmitriyvolkov0.github.io/seo-landing/)
 2. [https://dmitriyvolkov0.github.io/seosave/](https://dmitriyvolkov0.github.io/seosave/)
 3. [https://dmitriyvolkov0.github.io/seosale/](https://dmitriyvolkov0.github.io/seosale/)
