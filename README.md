@@ -7,7 +7,7 @@
 5. Topodin - сервис seo-продвижения сайтов: https://ru.topodin.com
    
 ### Страницы для компании, занимающеся продвижением сайтов (установлены на cms wordpress):
-1.[https://e-discovery.ng/](https://e-discovery.ng)
+1. [https://e-discovery.ng/](https://e-discovery.ng)
 2. [https://dmitriyvolkov0.github.io/seo-landing/](https://dmitriyvolkov0.github.io/seo-landing/)
 3. [https://dmitriyvolkov0.github.io/seosave/](https://dmitriyvolkov0.github.io/seosave/)
 4. [https://dmitriyvolkov0.github.io/seosale/](https://dmitriyvolkov0.github.io/seosale/)
