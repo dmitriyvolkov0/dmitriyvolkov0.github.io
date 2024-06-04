@@ -5,12 +5,12 @@
 3. Сайт ООО "ЗАВОДТЕХНОЛАЙН": [https://заводтехнолайн.рф](https://ztl136.ru)
 4. Topodin - сервис seo-продвижения сайтов (участвовал в доработке): [https://ru.topodin.com](https://ru.topodin.com)
 5. Сайт коттеджного поселка "Писаревка" (участвовал в доработке): [https://pisarevka.ru/](https://pisarevka.ru/)
+6. Сайт иностранной компании: [https://e-discovery.ng/](https://e-discovery.ng)
    
 ### Страницы для компании, занимающеся продвижением сайтов (установлены на cms wordpress):
-1. [https://e-discovery.ng/](https://e-discovery.ng)
-2. [https://dmitriyvolkov0.github.io/seosave/](https://dmitriyvolkov0.github.io/seosave/)
-3. [https://dmitriyvolkov0.github.io/seosale/](https://dmitriyvolkov0.github.io/seosale/)
-4. [https://dmitriyvolkov0.github.io/seo-landing/](https://dmitriyvolkov0.github.io/seo-landing/)
+1. [https://dmitriyvolkov0.github.io/seosave/](https://dmitriyvolkov0.github.io/seosave/)
+2. [https://dmitriyvolkov0.github.io/seosale/](https://dmitriyvolkov0.github.io/seosale/)
+3. [https://dmitriyvolkov0.github.io/seo-landing/](https://dmitriyvolkov0.github.io/seo-landing/)
 
 ### Веб-приложения на react js
 1. Веб-приложение для танцевальной студии (разрабатывалась только для мобильных устройств): [https://dance-studio36.ru](https://dance-studio36.ru).
