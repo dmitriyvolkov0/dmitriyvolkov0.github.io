@@ -1,5 +1,5 @@
 # dmitriyvolkov0.github.io - портфолио
-### Полноценные сайты:
+### Сайты:
 1. Сайт для кафе: [https://dmitriyvolkov0.github.io/cafe/](https://dmitriyvolkov0.github.io/cafe/)
 2. Сайт строительной компании ТехноСтрой (на стадии разработки): [https://ts136.ru/](https://ts136.ru)
 3. Сайт ООО "ЗАВОДТЕХНОЛАЙН": [https://заводтехнолайн.рф](https://ztl136.ru)
