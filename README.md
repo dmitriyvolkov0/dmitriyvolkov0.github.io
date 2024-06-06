@@ -6,7 +6,7 @@
 4. Topodin - сервис seo-продвижения сайтов (участвовал в доработке): [https://ru.topodin.com](https://ru.topodin.com)
 5. Сайт коттеджного поселка "Писаревка" (участвовал в доработке): [https://pisarevka.ru/](https://pisarevka.ru/)
 6. Сайт иностранной компании: [https://e-discovery.ng/](https://e-discovery.ng)
-7. Сайт по аренде спецтехники: [[https://thl136.ru](https://thl136.ru/)
+7. Сайт по аренде спецтехники: [https://thl136.ru](https://thl136.ru/)
 8. Сайт компании, продающей спецтехнику : [https://sales.thl136.ru/](https://sales.thl136.ru/)
    
 ### Страницы для компании, занимающеся продвижением сайтов:
