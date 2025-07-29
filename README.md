@@ -8,6 +8,18 @@
 6. Сайт иностранной компании: [https://e-discovery.ng/](https://e-discovery.ng)
 7. Сайт по аренде спецтехники: [https://thl136.ru](https://thl136.ru/)
 8. Сайт компании, продающей спецтехнику : [https://sales.thl136.ru/](https://sales.thl136.ru/)
+
+### Несколько примеров лендингов для стомотологических клиник:
+1. [https://m-smile-vsena-4.ru](https://m-smile-vsena-4.ru)
+2. [https://allsmiles-4implanta.ru](https://allsmiles-4implanta.ru)
+3. [https://implant-diadema.ru](https://implant-diadema.ru)
+4. [https://ao4-meridianum.ru](https://ao4-meridianum.ru)
+5. [https://viniry-medent.ru](https://viniry-medent.ru)
+6. [https://estetica-viniry.ru](https://estetica-viniry.ru)
+7. [https://goodman-implant.ru](https://goodman-implant.ru)
+8. [https://ao4-newo.ru](https://ao4-newo.ru)
+9. [https://brekety-ortholike.ru](https://brekety-ortholike.ru)
+10. [https://me-dent-implant.ru](https://me-dent-implant.ru)
    
 ### Страницы для компании, занимающеся продвижением сайтов:
 1. [https://dmitriyvolkov0.github.io/seosave/](https://dmitriyvolkov0.github.io/seosave/)
