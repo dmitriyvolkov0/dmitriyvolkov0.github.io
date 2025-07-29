@@ -8,6 +8,7 @@
 6. Сайт иностранной компании: [https://e-discovery.ng/](https://e-discovery.ng)
 7. Сайт по аренде спецтехники: [https://thl136.ru](https://thl136.ru/)
 8. Сайт компании, продающей спецтехнику : [https://sales.thl136.ru/](https://sales.thl136.ru/)
+9. Сайт компании по производству декоративных штукатурок, грунтовок и защитных покрытий: [https://granfir.ru](https://granfir.ru)
 
 ### Несколько примеров лендингов для стомотологических клиник:
 1. [https://m-smile-vsena-4.ru](https://m-smile-vsena-4.ru)
