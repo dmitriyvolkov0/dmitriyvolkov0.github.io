@@ -21,12 +21,11 @@
 9. [https://brekety-ortholike.ru](https://brekety-ortholike.ru)
 10. [https://me-dent-implant.ru](https://me-dent-implant.ru)
    
-### Страницы для компании, занимающеся продвижением сайтов:
+### Страницы для компании, занимающейся продвижением сайтов:
 1. [https://dmitriyvolkov0.github.io/seosave/](https://dmitriyvolkov0.github.io/seosave/)
 2. [https://dmitriyvolkov0.github.io/seosale/](https://dmitriyvolkov0.github.io/seosale/)
 3. [https://dmitriyvolkov0.github.io/seo-landing/](https://dmitriyvolkov0.github.io/seo-landing/)
 
 ### Веб-приложения на react js
 1. Веб-приложение для танцевальной студии (разрабатывалась только для мобильных устройств): [https://dance-studio36.ru](https://dance-studio36.ru).
-   Более подробно узнать о данном проекте вы можете перейдя в его [репозиторий](https://github.com/dmitriyvolkov0/dance-studio-app)
 2. Supply - веб-приложение для управления заявками на заводе: https://github.com/dmitriyvolkov0/supply
